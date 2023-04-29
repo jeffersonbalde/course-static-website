@@ -124,10 +124,12 @@ nav ul li a{
     font-size: 16px;
     line-height: 200%;
     color: #fff;
+    margin-bottom: 30px;
+    width: 457px;
 }
 
 .hero-section .left {
-    width: 457px;
+    flex: 1;
 }
 
 .hero-section .right {
@@ -158,13 +160,25 @@ nav ul li a{
     top: 330px;
 }
 
+.achievement-card.overall-rating {
+    left: 45%;
+    top: 520px;
+}
+
+.achievement-card .content div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .achievement-card h3 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 36px;
     color: var(--dark-blue-color);
     margin: 0;
     text-align: center;
+    width: 100%;
 }
 
 .achievement-card  p {
