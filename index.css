@@ -145,6 +145,7 @@ nav ul li a{
 
 .achievement-card {
     position: absolute;
+    min-width: 200px;
 }
 
 .achievement-card .content {
@@ -156,13 +157,13 @@ nav ul li a{
 }
 
 .achievement-card.students-enrolled {
-    left: 47%;
-    top: 330px;
+    left: 49%;
+    top: 270px;
 }
 
 .achievement-card.overall-rating {
-    left: 45%;
-    top: 520px;
+    left: 47%;
+    top: 470px;
 }
 
 .achievement-card .content div {
