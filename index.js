@@ -1,9 +1,3 @@
-// const form  = document.querySelector('#form');
-
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault()
-// })
-
 const nav = document.querySelector("nav");
 const mobileNav = document.querySelector("nav.mobile-nav");
 const menuIcon = document.querySelector(".menu-icon");
