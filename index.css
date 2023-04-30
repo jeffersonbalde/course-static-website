@@ -540,7 +540,7 @@ footer .copyright {
         width: 100%;
         left: 0;
         right: 0;
-        padding: 36px 100px;
+        padding: 20px 100px;
     }
 
     nav.scrolled {
@@ -550,7 +550,7 @@ footer .copyright {
     header,
     .hero-section,
     header .wrapper {
-        max-height: 735px;
+        max-height: 1100px;
     }
 
     .hero-section {
@@ -597,4 +597,10 @@ footer .copyright {
         align-self: flex-start;
         margin: 40px;
     }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    
 }
