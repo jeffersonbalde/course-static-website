@@ -770,6 +770,7 @@ nav.mobile-nav,
         padding: 0 32px;
     }
     
+
     .hero-section .left p {
         width: 100%;
     }
@@ -795,8 +796,8 @@ nav.mobile-nav,
     }
 
     .hero-section .right img {
-        height: 380px;
-        transform: translateX(50px);
+        height: 360px;
+        transform: translateX(60px);
     }
 
     .hero-section .right {
