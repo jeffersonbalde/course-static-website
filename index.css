@@ -764,3 +764,55 @@ nav.mobile-nav,
         font-size: 18px;
     }
 }
+
+@media (max-width: 700px){
+    .wrapper {
+        padding: 0 32px;
+    }
+    
+    .hero-section .left p {
+        width: 100%;
+    }
+
+    .app-section .app-buttons {
+        flex-direction: column;
+    }
+
+    nav.mobile-nav {
+        padding: 32px;
+    }
+
+    nav.mobile-nav.scrolled {
+        padding: 8px 32px;
+    }
+
+    .mobile-menu-container .close-icon {
+        right: 32px;
+    }
+
+    .hero-section .left h1 {
+        font-size: 36px;
+    }
+
+    .hero-section .right img {
+        height: 400px;
+        transform: translateX(50px);
+    }
+
+    .hero-section .right {
+        overflow: hidden;
+        transform: translateX(30px);
+    }
+
+    .achievement-card h3 {
+        font-size: 30px;
+    }
+
+    .hero-section .achievement-card {
+        margin-bottom: 48px;
+    }
+
+    .hero-section .achievement-cards {
+        margin: 0;
+    }
+}
