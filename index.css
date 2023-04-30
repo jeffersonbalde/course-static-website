@@ -655,10 +655,12 @@ footer .copyright {
     .courses-section .course-cards {
         flex-direction: column;
         gap: 80px;
+        /* align-items: center; */
     }
 
     .courses-section .course-card {
         margin: 0;
+        text-align: center;
     }
 
     .courses-section h2 {
@@ -668,6 +670,7 @@ footer .copyright {
     .courses-section .course-card img {
         height: 260px;
         object-fit: cover;
+        margin-top: 1px;
     }
 
     .courses-section .course-card h3 {
@@ -682,5 +685,11 @@ footer .copyright {
         margin-bottom: 50px;
     }
 
-    
+    footer .links-container {
+        grid-template-columns:  1fr 1fr;
+    }
+
+    footer .links-container .links:last-child {
+        grid-column: 1 / 3;
+    }
 }
