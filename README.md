@@ -1,1 +1,1 @@
-# gd-static-site
+## Game Development Course Static Website
